@@ -18,11 +18,6 @@ install_requires = [
     # TODO: put package requirements here
 ]
 
-# http://download.qt.io/official_releases/pyside/
-# http://download.qt.io/official_releases/QtForPython/pyside2/
-
-# PySide2 supports py2.7, py3.5, py3.6 on
-#
 is_64bits = sys.maxsize > 2**32
 
 python_version = "%s.%s.%s" % (
