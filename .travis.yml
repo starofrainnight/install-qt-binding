@@ -27,7 +27,7 @@ deploy:
   distributions: sdist
   user: starofrainnight
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: "crCpiFC6cd9662GElup6Hk/hBM7p+283AjCjJjm0eb4B+KlgyqOJ4P/ucINhCm6D5Q/qdvCiS0iv/dS6fkczGH8RVn7IlVnGz+HQvTHCRbx2a/tjUyF989qE9SjxCR8wmiZ5UUK6wGtme4ZQu9oKLnnI7mycQ/KY0S26bHL2ltwMRkM0ysDRXqhqbkuOEa+mEk9u8zlNd0FKKrDXIkXAnjZGrXZ7niVkTzKmVr2lNtrDL2w3S2yuJ4ThXzuuoY2ZALipIXlbiQ4buBwUk8jfhGo5wfVna6nmtdlXykKbVmCA8P7ZVOWhviUeRPmpNtIm6Tw2U4UmxLJN+ZjMDKjCk6sE2y/KqfrSONdDNuMvBHcE2BfAwCJNaAT9qpOnPxpQeo1PApWOp7dx7pJiTnp9ymzuDofSGVRbWtAdr/4v3BXtmlVgaJNHp7voBp1tG3C/7uE1EomYUnx2fwkRxmLLa1kj8PfcnnIF+4UgbQTq8Om3Y6KHGmtp044IRb4vLDBhFvfmAUcI0ky52MnBxbN5W1SuzFfDAl5kHmYx3zNVQw7h+D/Svogh2DpYuENo2fOqT96ReZkP3oRL1eT9cevoI9ygDlUgPXnfMPQHWcfeD1z1764/oM+9Q4Jsz51Ud4Q9fdXihIn3YSD4NhOuW1Jr1TPXdeh64TfESvIlM3YQUyI="
   on:
     tags: true
     repo: starofrainnight/install-qt-binding
