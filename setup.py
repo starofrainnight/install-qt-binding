@@ -70,7 +70,7 @@ description = (
 
 setup(
     name='install-qt-binding',
-    version='0.0.3',
+    version='0.0.4',
     description=description,
     long_description=long_description,
     author="Hong-She Liang",
