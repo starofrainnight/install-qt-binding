@@ -28,12 +28,4 @@ script: travis_wait 60 tox
 # After you create the Github repo and add it to Travis, run the
 # travis_pypi_setup.py script to finish PyPI deployment setup
 after_success:
-  - |
-  # If travis build tag version, then we deploy by twine.
-  if [ -n "${TRAVIS_TAG}" ] && [ "${TRAVIS_PYTHON_VERSION}" == "3.6" ] ; then
-    # WARNING: You must predefine TWINE_USERNAME and TWINE_PASSWORD environment
-    # variables in your travis-ci project settings
-    python -m pip install twine
-    python setup sdist --formats=zip
-    twine upload dist/*
-  fi
+  - echo "After successed"
