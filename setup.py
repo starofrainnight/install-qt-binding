@@ -13,21 +13,12 @@ from distutils.version import LooseVersion
 def check_if_binding_existed():
     bindings = ['PySide2', 'PySide', 'PyQt5', 'PyQt4']
 
-    is_python2 = (sys.version_info.major <= 2)
-
     for binding in bindings:
-        if is_python2:
-            try:
-                importlib.import_module(binding)
-                return True
-            except ImportError:
-                pass
-        else:
-            try:
-                importlib.import_module(binding)
-                return True
-            except ModuleNotFoundError:
-                pass
+        try:
+            importlib.import_module(binding)
+            return True
+        except ImportError:
+            pass
 
     return False
 
